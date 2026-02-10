@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int n,k;
+    cin >> n >> k;
+    for (int i = 0;i<n;i++)
+    {
+        char c = 'a'+(i%k);
+        cout << c;
+    }
+    return 0;
+}
+
